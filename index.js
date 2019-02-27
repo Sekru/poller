@@ -4,7 +4,6 @@ const poller = new Poller(2000);
 
 poller.onPoll(() => {
     console.log('Do something here...');
-    poller.poll();
 });
 
 poller.run();
